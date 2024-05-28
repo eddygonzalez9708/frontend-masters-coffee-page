@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Masters</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="./index.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="page">
+        <div class="nav">
+            <img class="coffee-img"
+                src="https://btholt.github.io/complete-intro-to-web-dev-v3/images/coffee_masters_logo.png"
+                alt="Coffee Masters Logo" />
+            <h1 class="coffee-title">Coffee Masters</h1>
+        </div>
+        <div class="cards">
+            <div class="card-items card">
+                <h2 class="card-title">ITEMS</h2>
+                <div class="item">
+                    <div class="item-left-group">
+                        <div class="item-counter">1x</div>
+                        <div class="item-description">
+                            <h3 class="item-title">Cappucino</h3>
+                            <div class="item-detail">Light Foam</div>
+                        </div>
+                    </div>
+                    <div class="item-price">$6.00</div>
+                </div>
+                <div class="item">
+                    <div class="item-left-group">
+                        <div class="item-counter">1x</div>
+                        <div class="item-description">
+                            <h3 class="item-title">Cappucino</h3>
+                            <div class="item-detail">Almond Milk</div>
+                            <div class="item-detail">Double Expresso Shot</div>
+                        </div>
+                    </div>
+                    <div class="item-price">$7.90</div>
+                </div>
+                <div class="item">
+                    <div class="item-left-group">
+                        <div class="item-counter">1x</div>
+                        <div class="item-description">
+                            <h3 class="item-title">Croissant</h3>
+                            <div class="item-detail">Butter</div>
+                        </div>
+                    </div>
+                    <div class="item-price">$5.37</div>
+                </div>
+            </div>
+            <div class="card-right-group">
+                <div class="card-name card">
+                    <h3 class="card-title">NAME</h3>
+                    <div class="input-group">
+                        <label for="input" class="input-label">Name for order</label>
+                        <input id="input" />
+                    </div>
+                </div>
+                <div class="card-payment card">
+                    <h3 class="card-title">PAYMENT</h3>
+                    <div class="input-group">
+                        <label for="input" class="input-label">Card number</label>
+                        <input id="input" />
+                    </div>
+                    <div class="input-group">
+                        <label for="input" class="input-label">CCV number</label>
+                        <input id="input" class="ccv-number" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="amounts">
+            <div class="amount-group">
+                <span>Subtotal:</span>
+                <span>$19.27</span>
+            </div>
+            <div class="amount-group">
+                <span>Tax:</span>
+                <span>$0.96</span>
+            </div>
+            <div class="amount-group">
+                <span>Total:</span>
+                <span>$20.23</span>
+            </div>
+        </div>
+        <div class="submit">
+            <button>Place order</button>
+        </div>
+    </div>
+</body>
+
+</html>
